@@ -13,7 +13,6 @@
 
 # Maven
 log/
-target/
 
 # NPM
 node_modules
