@@ -14,27 +14,18 @@ import java.time.LocalDateTime;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class OrderDto {
+public class PaymentDto {
 
     private String id;
 
-    private String productId;
+    private String orderId;
 
-    private BigDecimal price;
+    private String instrument;
 
-    private String purchasedBy;
-
-    private DeliveryAddressDto deliveryAddress;
+    private BigDecimal amount;
 
     private String status;
 
-    private BigDecimal receivedAmount;
-
     private LocalDateTime createdAt;
 
-    private LocalDateTime deliveredAt;
-
-    private LocalDateTime cancelledAt;
-
-    private LocalDateTime completedAt;
 }
